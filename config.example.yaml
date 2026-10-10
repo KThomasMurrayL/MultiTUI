@@ -1,0 +1,17 @@
+# Save as ~/.config/mt/config.yaml (or $XDG_CONFIG_HOME/mt/config.yaml).
+# These three agents are built in; overrides and custom agents are optional.
+agents:
+  claude:
+    cmd: claude
+  codex:
+    cmd: codex
+  opencode:
+    cmd: opencode
+  # review:
+  #   cmd: codex
+  #   args: ["--model", "your-model"]
+  #   env:
+  #     MODE: review
+defaults:
+  layout: tiled
+  kill_on_detach: false

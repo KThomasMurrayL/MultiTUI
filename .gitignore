@@ -1,0 +1,7 @@
+/bin/
+/dist/
+/mt
+*.test
+coverage.out
+__pycache__/
+*.pyc
